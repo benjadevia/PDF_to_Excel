@@ -1,0 +1,1 @@
+Relax and put your feet on the table, all the instructions are commented inside the Python file. Execute the commands that appear at the beginning in the terminal, replace the source and destination paths of the PDF and XLSX files respectively, and transform your PDFs into Excel with better quality than Adobe Acrobat Pro (nefarious)
