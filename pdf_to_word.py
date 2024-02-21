@@ -9,7 +9,7 @@ dfs = []
 
 # Read all pages of the PDF file and append the DataFrames to the list
 # Here, provide the path to the PDF
-dfs = tabula.read_pdf("/Users/benjamindeviaservanti/Desktop/Code/A0410003_Parte6.pdf", pages='all')
+dfs = tabula.read_pdf("/Users/you/folder/your_file.pdf", pages='all')
 
 # Get the total number of pages
 total_pages = len(dfs)
@@ -30,5 +30,5 @@ df_final = pd.concat(dfs_total, ignore_index=True)
 
 # Save the combined DataFrame to an Excel file
 # Here, provide the destination path and also add the desired .xlsx file name
-df_final.to_excel('/Users/benjamindeviaservanti/Desktop/Code/output.xlsx', index=False)
+df_final.to_excel('/Users/you/folder/output_name.xlsx', index=False)
 
